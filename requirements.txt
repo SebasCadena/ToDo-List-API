@@ -1,6 +1,6 @@
-fastapi
-uvicorn
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
 pymysql
-sqlalchemy
+sqlalchemy>=2.0.0
 python-dotenv
 cryptography
