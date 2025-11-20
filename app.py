@@ -68,7 +68,7 @@ def get_tasks():
     """
     try:
         result = conn.execute(
-            tasks.select().fetchall()
+            tasks.select()
         ).fetchall()
         
         return [task_to_dict(row) for row in result]
